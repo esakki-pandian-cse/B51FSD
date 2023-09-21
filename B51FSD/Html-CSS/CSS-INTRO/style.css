@@ -1,0 +1,123 @@
+div{
+    color: brown;
+}
+/* div is selector
+color is properties
+brown is athukkana value */
+
+/* four pillars of properties */
+/* list property */
+ul{
+    list-style-type:circle;
+    /* list-style: square inside url("../Html/sample\ image.jpg"); */
+}
+/* unorderd list-kku ordered list-kkum mattum than intha style property use aagum */
+
+/* font property */
+p{
+    font-size: 20px;
+   /* font-size: medium;*/
+   /* font-style: italic; */
+   font-family: Arial, Helvetica, sans-serif;
+   font: weight 600; ;
+}
+/* text property */
+p{
+    text-align:center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 1.5 ;
+    letter-spacing: 1.5px;
+}
+
+/* border property */
+p{
+    /* border: border-width boder-style boder-color */
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+/* 
+div{
+    text-align: center;
+    font-size: 13px;
+    border-top: 3px solid blue;
+    border-right: 3px dashed red;
+    border-bottom: 3px dotted green;
+    border-left: 3px double yellow;
+} */
+
+.ele{
+    text-align: center;
+    color: black;
+}
+.brd{
+    border: 2px solid red;
+    border-radius: 6px;
+    background-color: blue;
+}
+/* ippadi multible datas-kku eluthurathukku peruthan class */
+/* class-ah call pandrathukku . pottu call pannanum */
+
+/* Id sectors */
+
+#uni-ele{
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    color: darkslategray;
+}
+/* id is for uniqe element */
+/* oru element-kku oru id mattum than use panna mudium */
+/* id-ah call pandrathukku # pottu call pannanum */
+
+#uni-ele2{
+    font-size: xx-large;
+    text-align: right;
+    color: fuchsia;
+    font-style: inherit;
+}
+
+#container{ 
+    background-color: chartreuse;
+    text-decoration: none;
+}
+/* #id-ya call panna #use pannirukkom */
+
+.anc-link{
+    background-color: crimson !important
+}
+/* classah call panna .dot use pannirukkom */
+
+.block{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    width: 70px;
+    height: 20px;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+.inline{
+    display: inline;
+    background-color: red;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    color: black;
+    /* cannot do width and height */
+    width: 70px;
+    height: 20px;
+}
+
+.inline-block{
+    display: inline-block;
+    background-color: red;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    color: black;
+    width: 90px;
+    height: 30px;
+}
+/* inline-blockla width and height ah workout pannalam */

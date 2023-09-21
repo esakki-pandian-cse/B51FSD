@@ -1,0 +1,79 @@
+.txt-cen{
+    text-align: center;
+}
+.box-out{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+}
+.box-mod{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    /* padding: 30px; */
+    /* padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 30px; */
+    /* itha single line-laum eluthalam */
+    padding: 15px 20px 25px 30px;
+    /* top right bottom left */
+    border: 10px solid black;
+    margin: 10px;
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+/* pseudo-classah : vachu define pannanum */
+/* hover apdina mouseah anga kondu pogum pothu enna nadakkanum apdingurathu than hover */
+a:hover{
+    background-color: blue;
+}
+/* ithuanger tag-kku defaultah kudukkura hovering effect */
+/* ithe effect buttonkku kudukka mudiumanu ketta ...? Yes
+ */
+ button:hover{
+    background-color: blue;
+    color: red;
+    cursor: pointer;
+ }
+ /* buttonkku antha effect kudukkurathukku cursor pointer apdingura tag use pannanum */
+
+a:active{
+    background-color: green;
+}
+/* when i click the button the color was changed, activeah oru 
+function nadakkurapo antha color change aagum */
+/* THIS IS CALLED ACTIVE PESUDO-CLASS */
+
+/* ON FOCUS */
+
+a:visited{
+    color: goldenrod;
+}
+/* alredy intha linkah namma visit panni paathurukkom apdina athoda color defaultah 
+namma kudukkura colorla than irukkum */
+
+.inp-fld:focus{
+    background-color: green;
+}
+/* antha tabkulla click panni focus pandra apo color change aagum athan focus  */
+
+li:first-child{
+    font-size: larger;
+    font-weight: bolder;
+}
+ul > li:last-child{
+    color:red
+}
+li:nth-child(odd){
+background-color: blueviolet;
+}
+li:not(.not-style){
+color: red
+}
